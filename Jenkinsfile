@@ -4,6 +4,7 @@ pipeline {
         maven 'Maven3'
     }
     
+    // This is a comment in the Jenkinsfile
     stages {
         stage('Checkout') {
             steps {
