@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Building the project..."'
-                sh 'docker build -t team-skeleton:${BUILD_NUMBER} .'
+                sh 'docker build -t team-skeleton:0.0.1 .'
                 sh 'docker images'
                 sh 'echo "Build completed."'
             }
